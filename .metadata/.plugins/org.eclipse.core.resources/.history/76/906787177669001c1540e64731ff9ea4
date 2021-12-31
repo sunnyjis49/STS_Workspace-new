@@ -1,0 +1,5 @@
+package com.sun.microservice.data;
+
+public class UserEntity {
+
+}

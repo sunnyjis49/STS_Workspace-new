@@ -1,0 +1,9 @@
+package com.sun.microservice.security;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@Enable
+public class WebSecurity {
+
+}

@@ -1,0 +1,13 @@
+database-platform: org.hibernate.dialect.MySQL8Dialect
+datasource: ''
+ddl-auto: update
+driver-class-name: com.mysql.cj.jdbc.Driver
+hibernate: ''
+jpa: ''
+password: root
+port: 8081
+server: ''
+show-sql: true
+spring: ''
+url: jdbc:mysql://localhost:3306/CitizenDB
+username: root

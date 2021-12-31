@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.sun.microservices.vaccinationcenter.repositary;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.sun.microservices.vaccinationcenter.entity.VaccinationCenter;
+
+/**
+ * @author USER
+ *
+ */
+public interface CenterRepo extends JpaRepository<VaccinationCenter, Integer>{
+
+}

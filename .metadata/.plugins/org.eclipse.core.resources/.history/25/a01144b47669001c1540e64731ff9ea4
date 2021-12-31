@@ -1,0 +1,30 @@
+package com.sun.microservice.data;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+public class UserEntity implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6116076166087851389L;
+	
+	private long id;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String password;
+	private String userId;
+	private String encryptedPassword;
+
+}

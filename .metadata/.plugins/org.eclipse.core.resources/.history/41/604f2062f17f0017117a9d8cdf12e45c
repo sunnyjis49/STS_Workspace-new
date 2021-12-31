@@ -1,0 +1,23 @@
+package demo.xmlparser;
+
+import java.io.File;
+
+import org.jdom.Document;
+import org.jdom.input.SAXBuilder;
+
+
+public class ReadXmlFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			File inputFile = new File("G:\\Test\file.xml");
+			SAXBuilder saxBuilder = new SAXBuilder();
+			Document document = saxBuilder.build(inputFile);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+}

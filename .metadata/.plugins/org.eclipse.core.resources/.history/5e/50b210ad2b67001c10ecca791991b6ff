@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.sun.microservices.citizenservice.repositary;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.sun.microservices.citizenservice.entity.Citizen;
+
+/**
+ * @author USER
+ *
+ */
+public interface CitizenRepo extends JpaRepository<Citizen, Integer>{
+
+}

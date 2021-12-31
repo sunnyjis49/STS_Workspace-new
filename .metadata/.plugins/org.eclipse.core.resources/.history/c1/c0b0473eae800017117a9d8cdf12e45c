@@ -1,0 +1,16 @@
+package demo.xmlparser;
+
+import java.io.File;
+
+import org.jdom.input.SAXBuilder;
+
+public class UpdateXmlFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//create document
+		File file = new File("G:\\Test/file.xml");
+		SAXBuilder saxBuilder = new SAXBuilder();
+	}
+
+}

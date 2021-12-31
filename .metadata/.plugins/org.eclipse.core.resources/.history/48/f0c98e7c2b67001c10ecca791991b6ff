@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.sun.microservices.citizenservice.repositary;
+
+/**
+ * @author USER
+ *
+ */
+public interface CitizenRepo extends Jpare{
+
+}

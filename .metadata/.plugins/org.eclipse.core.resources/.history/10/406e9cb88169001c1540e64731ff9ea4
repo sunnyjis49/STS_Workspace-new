@@ -1,0 +1,5 @@
+package com.sun.microservice.security;
+
+public class WebSecurity {
+
+}

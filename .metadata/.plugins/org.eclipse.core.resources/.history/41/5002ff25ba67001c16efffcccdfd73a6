@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.sun.microservices.citizenservice.service;
+
+/**
+ * @author USER
+ *
+ */
+public class CitizenService {
+
+}
