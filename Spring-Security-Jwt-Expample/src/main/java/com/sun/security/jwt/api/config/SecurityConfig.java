@@ -25,12 +25,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 	private JwtFilter jwtFilter;
 	
 	@Autowired
-	private CustomUserDetailsService userDetailsService;
+	private CustomUserDetailsService customUserDetailsService;
 	
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		// TODO Auto-generated method stub
-		auth.userDetailsService(userDetailsService);
+		auth.userDetailsService(customUserDetailsService);
 	}
 	
 	@Bean
