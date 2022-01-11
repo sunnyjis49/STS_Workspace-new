@@ -1,5 +1,6 @@
 package com.sun.microservices.paymentservice.api.service;
 
+import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 
@@ -24,6 +25,10 @@ public class PaymentService {
 	private String paymentProcessing() {
 		//api should be 3rd party payment gateway(paytm, paypal etc)
 		return new Random().nextBoolean() ? "success" : "false";
+	}
+	
+	public List<Payment> findPaymentHistoryByOrderId(int orderId) {
+		return paymentRepositary.findAllByOrderId(orderId);
 	}
 
 }

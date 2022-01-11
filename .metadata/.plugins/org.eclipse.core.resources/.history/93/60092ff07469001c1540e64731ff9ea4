@@ -1,5 +1,0 @@
-package com.sun.microservice.service;
-
-public class UserServiceImpl {
-
-}

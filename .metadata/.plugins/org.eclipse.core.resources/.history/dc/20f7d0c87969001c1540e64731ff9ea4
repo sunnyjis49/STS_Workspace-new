@@ -1,7 +1,0 @@
-package com.sun.microservice.data;
-
-import org.springframework.data.repository.CrudRepository;
-
-public interface UsersRepositary extends CrudRepository<UserEntity, Long>{
-
-}

@@ -1,5 +1,0 @@
-package com.sun.microservices.vaccinationcenter.controller;
-
-public class VaccinationCenterController {
-
-}

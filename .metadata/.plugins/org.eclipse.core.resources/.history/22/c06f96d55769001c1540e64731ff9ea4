@@ -1,5 +1,0 @@
-package com.sun.microservice.model;
-
-public class CreateUserRequestModel {
-
-}

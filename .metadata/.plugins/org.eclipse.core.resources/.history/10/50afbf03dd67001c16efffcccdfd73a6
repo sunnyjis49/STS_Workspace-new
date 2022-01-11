@@ -1,5 +1,0 @@
-package com.sun.microservices.vaccinationcenter.model;
-
-public class RequiredResponse {
-
-}

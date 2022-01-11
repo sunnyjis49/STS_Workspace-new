@@ -1,7 +1,0 @@
-package com.sun.microservice.data;
-
-import java.io.Serializable;
-
-public class UserEntity implements Serializable{
-
-}

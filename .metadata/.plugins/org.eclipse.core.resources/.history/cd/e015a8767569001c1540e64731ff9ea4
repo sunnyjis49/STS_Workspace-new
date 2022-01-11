@@ -1,7 +1,0 @@
-package com.sun.microservice.service;
-
-public interface UserService {
-	
-	UserDto createUser(UserDto userDetails);
-
-}

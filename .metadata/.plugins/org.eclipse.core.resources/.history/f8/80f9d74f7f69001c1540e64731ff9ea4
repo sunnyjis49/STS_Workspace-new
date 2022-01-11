@@ -1,9 +1,0 @@
-package com.sun.microservice.model;
-
-public class CreateUserResponseModel {
-	private String firstName;
-	private String lastName;
-	private String email;
-	private String userId;
-
-}
