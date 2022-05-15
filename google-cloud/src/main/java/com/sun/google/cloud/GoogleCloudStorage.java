@@ -101,7 +101,7 @@ public class GoogleCloudStorage {
         return "Blob not found";
     }
 
-    // Update a blob
+    // Update a blob comments
     private void updateString(BlobId blobId, String newString) throws IOException {
         Blob blob = storage.get(blobId);
         if (blob != null) {
